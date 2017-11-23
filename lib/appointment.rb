@@ -8,6 +8,6 @@ class Appointment
 
     @date = date
     @doctor = doctor
-    @date.add_appointment(self)
+    @doctor.add_appointment(self)
   end
 end
