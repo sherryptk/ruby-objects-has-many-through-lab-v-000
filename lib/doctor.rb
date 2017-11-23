@@ -15,9 +15,10 @@ class Doctor
   end
 
   def patients
+    binding.pry
+
     @appointments.collect do |appt|
       appt.patient
-      binding.pry
     end
   end
 
