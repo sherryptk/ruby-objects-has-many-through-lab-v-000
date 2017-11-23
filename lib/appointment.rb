@@ -1,4 +1,3 @@
-require 'pry'
 class Appointment
   attr_accessor :doctor
   attr_reader :date
