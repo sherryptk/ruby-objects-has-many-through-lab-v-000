@@ -1,3 +1,4 @@
+require 'pry'
 class Appointment
   attr_accessor :doctor
   attr_reader :date, :appointments
@@ -6,5 +7,6 @@ class Appointment
     @date = date
     @doctor = doctor
     @date.add_appointment(self)
+
   end
 end
