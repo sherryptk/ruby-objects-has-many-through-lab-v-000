@@ -13,7 +13,7 @@ class Patient
     appt.patient = self
   end
 
-  def doctor
+  def doctors
     @appointments.collect do |appt|
       appt.doctor
     end
