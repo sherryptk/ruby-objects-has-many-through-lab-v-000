@@ -7,6 +7,6 @@ class Appointment
     @date = date
     @doctor = doctor
     @date.add_appointment(self)
-
+binding.pry
   end
 end
