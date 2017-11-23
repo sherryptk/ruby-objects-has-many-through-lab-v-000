@@ -8,6 +8,7 @@ class Patient
   end
 
   def add_appointment(appt)
+    binding.pry
     @appointments << appt
     @appointments.patient = self
 
