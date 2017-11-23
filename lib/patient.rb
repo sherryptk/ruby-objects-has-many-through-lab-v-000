@@ -18,5 +18,6 @@ class Patient
     @appointments.collect do |appt|
       appt.doctor
     end
+  end
 
 end
