@@ -1,3 +1,5 @@
+require 'pry'
+
 class Doctor
 
   attr_accessor :appointments, :doctor
@@ -9,6 +11,7 @@ class Doctor
   end
 
   def add_appointment(appt_obj)
+    binding.pry
     @appointments << appt_obj
     appt_obj.doctor = self
   end
