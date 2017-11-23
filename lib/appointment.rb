@@ -1,7 +1,7 @@
 require 'pry'
 class Appointment
   attr_accessor :doctor
-  attr_reader :date, :appointments
+  attr_reader :date
 
   def initialize(date, doctor)
     @date = date
